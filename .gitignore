@@ -1,0 +1,253 @@
+# ====================
+# Python (Backend)
+# ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+*.pyc
+*.pyo
+*.pyd
+
+# ====================
+# Django / Flask
+# ====================
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.pkl
+*.pickle
+
+# ====================
+# Database
+# ====================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.mdb
+*.accdb
+*.ldf
+*.mdf
+
+# ====================
+# ML Models (Large Files)
+# ====================
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.model
+*.weights
+*.onnx
+*.pb
+*.tflite
+*.mar
+models/*.pkl
+models/*.joblib
+*.zip
+*.tar.gz
+*.rar
+
+# ====================
+# Environment Variables
+# ====================
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+.env.test
+
+# ====================
+# Node.js / React (Frontend)
+# ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.lerna-debug.log*
+
+# Build Outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+*.next
+*.nuxt
+
+# Package Manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ====================
+# IDE / Editor
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*.tmp
+
+# ====================
+# OS Files
+# ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ====================
+# Docker
+# ====================
+docker-compose.override.yml
+.dockerignore
+*.pid
+*.pid.lock
+*.lock
+
+# ====================
+# Logs
+# ====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+access.log
+error.log
+app.log
+*.log
+
+# ====================
+# Testing
+# ====================
+coverage/
+.nyc_output/
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+*.test.jsx
+*.spec.jsx
+
+# ====================
+# Data Files
+# ====================
+*.csv
+*.xlsx
+*.xls
+*.json
+*.xml
+*.parquet
+*.feather
+*.arrow
+*.hdf5
+*.mat
+*.nc
+
+# ====================
+# Uploads / Temp
+# ====================
+uploads/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ====================
+# Secrets / Credentials
+# ====================
+*.pem
+*.key
+*.crt
+*.csr
+*.der
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+secrets/
+credentials/
+*.secret
+
+# ====================
+# Python Specific
+# ====================
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+pytype/
+*.egg-info/
+dist/
+build/
+*.egg
+MANIFEST
+
+# ====================
+# Jupyter Notebooks
+# ====================
+.ipynb_checkpoints/
+*.ipynb
+*.ipynb_checkpoints/
+
+# ====================
+# Backup Files
+# ====================
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# ====================
+# Terraform
+# ====================
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfvars.json
+
+# ====================
+# Custom Project Files
+# ====================
+backend/data/processed/
+backend/data/raw/*.csv
+backend/logs/*.log
+frontend/.env.local
+database/backups/
+*.sqlite
+*.db
+*.pkl
+*.joblib
